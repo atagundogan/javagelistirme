@@ -46,7 +46,7 @@ public class Main {
 		{
 			System.out.println(krediler[i]);
 		}
-		
+		//// lesson 1 >>> 14.09.2022
 	}
 
 }
