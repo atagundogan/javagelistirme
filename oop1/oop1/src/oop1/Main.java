@@ -42,7 +42,27 @@ public class Main {
 		System.out.println("</ul>");
 		
 		
-
+		IndividualCustomer individualCustomer = new IndividualCustomer();
+		individualCustomer.setId(1);
+		individualCustomer.setPhone("053323333333");
+		individualCustomer.setCustomerNumber("12345");
+		
+		individualCustomer.setFirstName("Ata");
+		individualCustomer.setLastName("Doğan");
+		
+		
+		CorporateCustomer coroparateCustomer = new CorporateCustomer();
+		coroparateCustomer.setId(2); 
+		coroparateCustomer.setCompanyName("Kodlama");
+		coroparateCustomer.setPhone("052532532");
+		coroparateCustomer.setCustomerNumber("54321");
+		
+		
+		Customer[] customers = {individualCustomer, coroparateCustomer};
+		
+		
+		
+		
 	}
 
 }
